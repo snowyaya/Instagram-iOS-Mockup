@@ -53,7 +53,7 @@ class CameraViewController: UIViewController, UIImagePickerControllerDelegate, U
         } else {
             picker.sourceType = .photoLibrary
         }
-        self.present(picker, animated: true, completion: nil)
+        present(picker, animated: true, completion: nil)
     }
     
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
@@ -64,7 +64,7 @@ class CameraViewController: UIViewController, UIImagePickerControllerDelegate, U
         let scaledImage = image.af.imageScaled(to: size)
         
         imageView.image = scaledImage
-        self.dismiss(animated: true, completion: nil)
+        dismiss(animated: true, completion: nil)
     }
     /*
     // MARK: - Navigation
