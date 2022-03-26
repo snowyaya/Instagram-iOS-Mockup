@@ -16,4 +16,8 @@ target 'Pastagram' do
     # Pods for testing
   end
 
+  # Add Parse pods and install
+   pod 'Parse'
+   pod 'AlamofireImage'
+
 end
