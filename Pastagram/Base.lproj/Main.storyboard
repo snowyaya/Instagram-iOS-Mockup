@@ -106,9 +106,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="rJr-fB-9KO">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="rJr-fB-9KO">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="PostCellTableViewCell" id="hvm-Ik-1Lo" customClass="PostCellTableViewCell" customModule="Pastagram" customModuleProvider="target">
@@ -160,6 +159,12 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="cGZ-pN-3YA"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="rJr-fB-9KO" firstAttribute="leading" secondItem="cGZ-pN-3YA" secondAttribute="leading" id="1BV-gs-MCS"/>
+                            <constraint firstItem="rJr-fB-9KO" firstAttribute="trailing" secondItem="cGZ-pN-3YA" secondAttribute="trailing" id="CEQ-FC-F6j"/>
+                            <constraint firstItem="rJr-fB-9KO" firstAttribute="top" secondItem="fs5-8U-l84" secondAttribute="top" id="Lu6-ph-XwX"/>
+                            <constraint firstItem="rJr-fB-9KO" firstAttribute="bottom" secondItem="cGZ-pN-3YA" secondAttribute="bottom" id="cvy-64-Bny"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="60O-hK-2oG">
                         <barButtonItem key="rightBarButtonItem" title="+" image="insta_camera_btn" id="7Iw-vz-psG">

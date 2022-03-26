@@ -14,6 +14,9 @@
 		9BC42FC527EE30E400174376 /* ArgumentParser in Frameworks */ = {isa = PBXBuildFile; productRef = 9BC42FC427EE30E400174376 /* ArgumentParser */; };
 		9BC42FE727EE3A2200174376 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC42FE627EE3A2200174376 /* CameraViewController.swift */; };
 		9BC42FE927EE4A1500174376 /* PostCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC42FE827EE4A1500174376 /* PostCellTableViewCell.swift */; };
+		9BCFC20427EEBCDB00859EF4 /* ArgumentParser in Frameworks */ = {isa = PBXBuildFile; productRef = 9BCFC20327EEBCDB00859EF4 /* ArgumentParser */; };
+		9BCFC20727EEBD0D00859EF4 /* ArgumentParser in Frameworks */ = {isa = PBXBuildFile; productRef = 9BCFC20627EEBD0D00859EF4 /* ArgumentParser */; };
+		9BCFC20A27EEBD1F00859EF4 /* ArgumentParser in Frameworks */ = {isa = PBXBuildFile; productRef = 9BCFC20927EEBD1F00859EF4 /* ArgumentParser */; };
 		9BF8E56E27ED1072006570F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF8E56D27ED1072006570F3 /* AppDelegate.swift */; };
 		9BF8E57027ED1072006570F3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF8E56F27ED1072006570F3 /* SceneDelegate.swift */; };
 		9BF8E57527ED1072006570F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BF8E57327ED1072006570F3 /* Main.storyboard */; };
@@ -76,8 +79,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BCFC20A27EEBD1F00859EF4 /* ArgumentParser in Frameworks */,
 				9BC42FC527EE30E400174376 /* ArgumentParser in Frameworks */,
 				9BC42FC227EE30D300174376 /* ArgumentParser in Frameworks */,
+				9BCFC20427EEBCDB00859EF4 /* ArgumentParser in Frameworks */,
+				9BCFC20727EEBD0D00859EF4 /* ArgumentParser in Frameworks */,
 				3D416C4D27C41A195F3DAE81 /* Pods_Pastagram.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -201,6 +207,9 @@
 			packageProductDependencies = (
 				9BC42FC127EE30D300174376 /* ArgumentParser */,
 				9BC42FC427EE30E400174376 /* ArgumentParser */,
+				9BCFC20327EEBCDB00859EF4 /* ArgumentParser */,
+				9BCFC20627EEBD0D00859EF4 /* ArgumentParser */,
+				9BCFC20927EEBD1F00859EF4 /* ArgumentParser */,
 			);
 			productName = Pastagram;
 			productReference = 9BF8E56A27ED1072006570F3 /* Pastagram.app */;
@@ -280,6 +289,9 @@
 			packageReferences = (
 				9BC42FC027EE30D300174376 /* XCRemoteSwiftPackageReference "swift-argument-parser" */,
 				9BC42FC327EE30E400174376 /* XCRemoteSwiftPackageReference "swift-argument-parser" */,
+				9BCFC20227EEBCDB00859EF4 /* XCRemoteSwiftPackageReference "swift-argument-parser" */,
+				9BCFC20527EEBD0D00859EF4 /* XCRemoteSwiftPackageReference "swift-argument-parser" */,
+				9BCFC20827EEBD1F00859EF4 /* XCRemoteSwiftPackageReference "swift-argument-parser" */,
 			);
 			productRefGroup = 9BF8E56B27ED1072006570F3 /* Products */;
 			projectDirPath = "";
@@ -798,6 +810,30 @@
 				minimumVersion = 1.0.0;
 			};
 		};
+		9BCFC20227EEBCDB00859EF4 /* XCRemoteSwiftPackageReference "swift-argument-parser" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-argument-parser.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		9BCFC20527EEBD0D00859EF4 /* XCRemoteSwiftPackageReference "swift-argument-parser" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-argument-parser.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		9BCFC20827EEBD1F00859EF4 /* XCRemoteSwiftPackageReference "swift-argument-parser" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-argument-parser.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -807,6 +843,21 @@
 			productName = ArgumentParser;
 		};
 		9BC42FC427EE30E400174376 /* ArgumentParser */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9BC42FC027EE30D300174376 /* XCRemoteSwiftPackageReference "swift-argument-parser" */;
+			productName = ArgumentParser;
+		};
+		9BCFC20327EEBCDB00859EF4 /* ArgumentParser */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9BC42FC027EE30D300174376 /* XCRemoteSwiftPackageReference "swift-argument-parser" */;
+			productName = ArgumentParser;
+		};
+		9BCFC20627EEBD0D00859EF4 /* ArgumentParser */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9BC42FC027EE30D300174376 /* XCRemoteSwiftPackageReference "swift-argument-parser" */;
+			productName = ArgumentParser;
+		};
+		9BCFC20927EEBD1F00859EF4 /* ArgumentParser */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 9BC42FC027EE30D300174376 /* XCRemoteSwiftPackageReference "swift-argument-parser" */;
 			productName = ArgumentParser;

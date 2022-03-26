@@ -11,6 +11,7 @@ import Parse
 
 
 class CameraViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
+    
     @IBOutlet weak var imageView: UIImageView!
     @IBOutlet weak var commentField: UITextField!
     
@@ -63,7 +64,7 @@ class CameraViewController: UIViewController, UIImagePickerControllerDelegate, U
         let scaledImage = image.af.imageScaled(to: size)
         
         imageView.image = scaledImage
-        dismiss(animated: true, completion: nil)
+        self.dismiss(animated: true, completion: nil)
     }
     /*
     // MARK: - Navigation

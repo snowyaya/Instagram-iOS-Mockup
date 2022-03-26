@@ -28,26 +28,6 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "9BF8E57F27ED1073006570F3"
-               BuildableName = "PastagramTests.xctest"
-               BlueprintName = "PastagramTests"
-               ReferencedContainer = "container:Pastagram.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "9BF8E58927ED1073006570F3"
-               BuildableName = "PastagramUITests.xctest"
-               BlueprintName = "PastagramUITests"
-               ReferencedContainer = "container:Pastagram.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction
