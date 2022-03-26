@@ -22,4 +22,4 @@ The following **bonus** features are implemented:
 
 ## Video Walkthrough
 
-![instagram-part1](https://user-images.githubusercontent.com/75382121/160245484-11eea642-ec71-498a-8dc5-0b9d8a9f8112.gif)
+![Instagram-part1](https://user-images.githubusercontent.com/75382121/160247510-87baeb82-a248-4355-a654-95869746a406.gif)
