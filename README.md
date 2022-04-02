@@ -22,7 +22,7 @@ The following **bonus** features are implemented:
 
 ## Video Walkthrough
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+![instagram-part2](https://user-images.githubusercontent.com/75382121/161370997-56faf24b-694c-4e08-b453-043d3819bb42.gif)
 
 # Part I
 
