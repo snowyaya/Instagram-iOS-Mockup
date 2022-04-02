@@ -10,7 +10,8 @@ import Parse
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
-    
+    var window: UIWindow?
+
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         let parseConfig = ParseClientConfiguration {
                 $0.applicationId = "xo9CLwNFBtpOIjvWbzACMZHoinK6WKSXhbsLeVFb" // <- UPDATE
@@ -19,6 +20,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         }
         Parse.initialize(with: parseConfig)
         // Override point for customization after application launch.
+        
         return true
     }
 
